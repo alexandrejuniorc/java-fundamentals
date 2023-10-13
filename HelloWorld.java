@@ -7,7 +7,11 @@
 public class HelloWorld {
 
     // Todo conteudo devera ser inserido aqui dentro
-    
+
+    public static void main(String[] args) {
+        
+    }
+
 }
 
 // Fora do escopo da classe
