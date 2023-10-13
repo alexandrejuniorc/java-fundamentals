@@ -22,7 +22,30 @@ public class HelloWorld {
         long dadoDoTipoLong = 10L;
         String dadoDoTipoString = "Hello World";
         boolean dadoDoTipoBoolean = true;
-        
+
+        // if - else
+        if (dadoDoTipoInt == 10) {
+            // sysout - print
+            System.out.println("Entrou no if");
+        } else if (dadoDoTipoInt == 20) {
+            System.out.println("Entrou no else if");
+
+        } else {
+            System.out.println("Entrou no else");
+        }
+
+
+        // While (Enquanto algo for verdadeiro, faça alguma coisa) 
+        int valorInicial = 0;
+        while(valorInicial < 3) {
+            // System.out.println(valorInicial);
+            valorInicial++; // valor inicial = valor inicial + 1
+        }
+
+        // For
+        for (int i = 0; i < 4; i++) {
+            System.out.println("O valor do i é: " + i);
+        }
     }
 
 }
